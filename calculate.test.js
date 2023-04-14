@@ -1,11 +1,11 @@
 const calculator = require('./calculate');
 describe('Calculator', () => {
-    // Arrange
-    const num1 = 6;
-    const num2 = 2;
-    const calc = new calculator(num1, num2);
-  
-    // Add two number
+  // Arrange
+  const num1 = 6;
+  const num2 = 2;
+  const calc = new calculator(num1, num2);
+
+  // Add two number
   test('add two numbers', () => {
     // Act
     const plus = calc.add();
