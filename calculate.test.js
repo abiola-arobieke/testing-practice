@@ -5,6 +5,12 @@ describe('Calculator', () => {
   const num2 = 2;
   const calc = new calculator(num1, num2);
 
+  // Act
+  expect(typeof num1).toBe('number');
+  expect(typeof num2).toBe('number');
+  expect(num1).not.toBeNull();
+  expect(num2).not.toBeUndefined();
+
   // Add two number
   test('add two numbers', () => {
     // Act
