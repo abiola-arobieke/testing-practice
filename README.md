@@ -41,7 +41,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Fetch Data Dynamically**
+- **Performed a test on a function that counts the length of a string**
+- **Performed a test on a function that reverses a string**
+- **Performed a test on a class that adds, subtracts, multiplies, and divides two numbers**
+- **Performed a test on a function that converts the first string to an upper case**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +87,7 @@ Change directory to the project folder
 ```
 On your terminal, run
 ```sh
-  npm test
+  npm run watch
 ```
 
 ## 👥 Author <a name="authors"></a>
@@ -101,7 +104,7 @@ On your terminal, run
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Drag and drop task**
+- [ ] **Create a script to perform test automatically**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
