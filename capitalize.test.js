@@ -1,12 +1,12 @@
-const strUpperCase = require('./capitalize')
+const strUpperCase = require('./capitalize');
 
 test('Convert first letter  to capital', () => {
-    //Arrange
-    const word = 'dance';
+  //Arrange
+  const word = 'dance';
 
-    //Act
-    const toCapital = strUpperCase(word);
+  //Act
+  const toCapital = strUpperCase(word);
 
-    //Assert
-    expect(toCapital).toMatch(/Dance/)
-})
+  //Assert
+  expect(toCapital).toMatch(/Dance/);
+});
